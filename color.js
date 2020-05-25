@@ -45,8 +45,8 @@ var colors =  generatenumber(mode);
         		{    
         			a[j].style.backgroundColor=this.style.backgroundColor;
         			document.querySelector(".win").style.backgroundColor=this.style.backgroundColor;
-        			message.textContent="CORRECT";
-        			reset.textContent="play-again?";
+        			message.innerHTML="<h4>CORRECT</h4>";
+        			reset.innerHTML="<h4>play again!!</h4>";
 
 
         		}
@@ -55,7 +55,7 @@ var colors =  generatenumber(mode);
 
         	else{
         		this.style.backgroundColor="#232323";
-        		message.innerHTML="<p>try again!!</p>"
+        		message.innerHTML="<h4>try again!!</h4>"
         	}
         	});
 

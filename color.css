@@ -1,21 +1,27 @@
-
+.flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
 
 .win{
 	text-align: center;
-	background: rgb(6,141,199);
+	background: rgb(77, 0, 77);
 	color: white;
 	transition: all 2.0s;
-     
+
+  }
 
 
-}
 .yes{
-	background :white;
-	margin-top: -9px;
-	text-align: center;
-
-
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background :rgb(26, 0, 26,0.5);
+	
+	box-shadow: 1px 1px 7px rgb(26, 0, 26);
 }
+
 #body{
 	background: #232323;
 	margin: 0;
@@ -31,10 +37,8 @@
 #result{
 	display: inline-block;
 	width: 20%;
-
-
-	
-
+	text-align: center;
+	color: red;
 }
 
 .reset{
@@ -43,6 +47,7 @@
 	text-transform: uppercase;
 	color: rgb(6,141,199);
 	outline: none;
+	border-radius: 5px;
 	
 }
 .easy{
@@ -51,6 +56,7 @@ border:0px;
 text-transform: uppercase;
 color: rgb(6,141,199);
 text-align: center;
+	border-radius: 5px;
 
 }
 .selected{
@@ -60,12 +66,13 @@ border:0px;
 text-transform: uppercase;
 color: white;
 text-align: center;
+	border-radius: 5px;
 }
+
+
 #container{
 	margin: 20px auto;
 	max-width: 600px;
-	
-
 }
 .square{
      width:30%;
@@ -85,10 +92,11 @@ text-align: center;
 }
 #display{
 	font-size: 200%;
+
 }
 
 button:hover{
-	background: steelblue;
+	background:rgb(204, 0, 153);
 	color:white;
 	transition: all 1.0s;
 }
