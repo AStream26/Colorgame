@@ -1,0 +1,95 @@
+
+
+.win{
+	text-align: center;
+	background: rgb(6,141,199);
+	color: white;
+	transition: all 2.0s;
+     
+
+
+}
+.yes{
+	background :white;
+	margin-top: -9px;
+	text-align: center;
+
+
+}
+#body{
+	background: #232323;
+	margin: 0;
+	font-family: "Avenir";
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 1px;
+	
+
+
+}
+#result{
+	display: inline-block;
+	width: 20%;
+
+
+	
+
+}
+
+.reset{
+	background-color:white;
+	border:0px;
+	text-transform: uppercase;
+	color: rgb(6,141,199);
+	outline: none;
+	
+}
+.easy{
+background-color:white;
+border:0px;
+text-transform: uppercase;
+color: rgb(6,141,199);
+text-align: center;
+
+}
+.selected{
+background-color:white;
+background: rgb(6,141,199);
+border:0px;
+text-transform: uppercase;
+color: white;
+text-align: center;
+}
+#container{
+	margin: 20px auto;
+	max-width: 600px;
+	
+
+}
+.square{
+     width:30%;
+	background: purple;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	float: left;
+	transition: all 2.0s;
+	border-radius: 50%;
+
+
+
+}
+
+.hover{
+	background: blue;
+}
+#display{
+	font-size: 200%;
+}
+
+button:hover{
+	background: steelblue;
+	color:white;
+	transition: all 1.0s;
+}
+
