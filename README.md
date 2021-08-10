@@ -1,6 +1,6 @@
 # Simple RGB guessing game 😋😋.
 ## [Live Site](https://astream26.github.io/Colorgame/)
-<a href="https://imgbox.com/jOlpzrMP" target="_blank"><img src="https://images2.imgbox.com/a0/1b/jOlpzrMP_o.gif" alt="image host"/></a>
+<img src="https://images2.imgbox.com/a0/1b/jOlpzrMP_o.gif" alt="image host"/>
 
 <p>RGB Color Guessing Game is a fun game 😀😀 that will help you improve your knowledge of RGB colors 😅.</p>
 
